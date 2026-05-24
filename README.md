@@ -1,44 +1,156 @@
-EV Market Dynamics & Adoption Analysis
-Strategic Business Intelligence | Tableau Performance Dashboard
+# ⚡ Electrical Vehicle Data Analysis
 
-1. Project Overview
-This project analyzes a comprehensive dataset of over 150,000 Electric Vehicle (EV) records to evaluate market penetration, technological advancements, and the effectiveness of financial incentives. The primary objective was to transform raw historical data into a strategic roadmap that identifies market leaders and evaluates the correlation between government policy and consumer adoption.
+<p align="center">
+  <img src="./EV Market_Analysis.png" width="1100">
+</p>
 
-2. Key Performance Indicators (KPIs)
-To provide an immediate executive summary, the dashboard tracks four critical metrics:
+---
 
-Total EV Count (150,482): The total volume of unique VIN-registered vehicles in the dataset, establishing the scale of the market.
-Average Battery Range (67.88 mi): A technical benchmark used to track the evolution of EV efficiency and consumer "range anxiety" over time.
-BEV % (77.6%): The market share of Battery Electric Vehicles vs. Plug-in Hybrids, indicating a strong consumer preference for fully electric powertrains.
-CAFV Eligibility: Tracking vehicles eligible for Clean Alternative Fuel Vehicle (CAFV) incentives to measure policy-driven market growth.
+# 📌 Project Overview
 
-3. Data Visualization & Strategic Logic
+This project presents an interactive **Electrical Vehicle Data Analysis Dashboard** built using **Tableau** to analyze the growth, adoption trends, battery performance, and market distribution of electric vehicles.
 
-A. Battery Range Improvement (Time-Series)
-Description: A line chart plotting the average battery range by model year.
-BA Logic: This chart identifies the "Inflection Point" in EV technology. By observing the sharp increase around 2010–2020, we can correlate technological breakthroughs with market readiness.
+The dashboard transforms EV market data into visual business intelligence, helping uncover trends in:
+- EV adoption
+- Battery efficiency
+- Vehicle categories
+- Incentive impact
+- Brand performance
+- State-wise EV distribution
 
-B. Trend of Adoption
-Description: An area chart showing the volume of EV registrations from 1997 to 2024.
-BA Logic: Used to identify the Compound Annual Growth Rate (CAGR) of the industry. It highlights that the 80/20 of market growth has occurred within the last five years, signaling a shift from "Early Adopters" to "Mass Market".
+Like watching the future of transportation unfold through data currents ⚡📊
 
-C. CAFV Incentive Impact
-Description: A dual-axis visualization comparing vehicle counts against incentive eligibility.
-BA Logic: This provides Policy ROI analysis. It demonstrates a direct correlation between government financial incentives and spikes in consumer registration, proving that fiscal policy is a primary driver of market behavior.
+---
 
-D. BEV vs. PHEV Market Split
-Description: A categorical breakdown of vehicle types.
-BA Logic: Helps stakeholders understand product-mix demand. The dominance of BEVs (116k+) over PHEVs (33k+) suggests that infrastructure and consumer trust in purely electric systems are maturing.
+# 🎯 Project Objectives
 
-4. Technical Stack
+- Analyze EV market growth trends
+- Compare BEV and PHEV vehicle adoption
+- Study battery range improvements over time
+- Evaluate CAFV incentive impact
+- Identify top EV brands
+- Monitor state-wise EV distribution
+- Generate actionable insights using data visualization
 
-Tool: Tableau Desktop.
-Skills Demonstrated: Data Modeling, Advanced Calculated Fields, Parameterized Filtering, Trend Forecasting, and Geographic Mapping.
-Logical Framework: First Principles Thinking (Breaking down market adoption into technology, policy, and consumer preference).
+---
 
-5. Key Insights & Recommendations
+# 🛠️ Tools & Technologies Used
 
-Policy Dependency: Market growth is heavily sensitive to CAFV incentives; any removal of these could slow adoption rates.
-Brand Dominance: A small number of manufacturers (Top EV Brands) control the majority of the market share, suggesting a high barrier to entry for new competitors.
+| Tool | Purpose |
+|---|---|
+| Tableau | Dashboard Development & Visualization |
+| Excel / CSV | Data Source |
+| Data Analytics | Trend & Market Analysis |
+| Data Cleaning | Data Preparation |
 
-Technological Plateau: While range improved significantly until 2020, the most recent years show a stabilization, suggesting the industry is now focusing on cost reduction over infinite range expansion.
+---
+
+# 📊 Dashboard Features
+
+---
+
+## 📌 KPI Cards
+
+The dashboard displays important EV market metrics:
+
+| KPI | Value |
+|---|---|
+| Total EVs | 150,482 |
+| Average Battery Range | 67.88 |
+| Battery Electric Vehicles (BEV) | 116,807 |
+| Plug-in Hybrid Electric Vehicles (PHEV) | 33,675 |
+
+---
+
+## 🔋 Battery Range Improvement
+
+Visualizes the improvement in EV battery range across different model years.
+
+### Key Insights
+- Significant battery range growth over time
+- Modern EVs demonstrate higher efficiency
+- Technology advancements improved vehicle performance
+
+---
+
+## 📈 Trend of Adoption
+
+Shows the rise in EV adoption over the years.
+
+### Purpose
+Helps analyze:
+- Market expansion
+- Consumer adoption trends
+- Growth acceleration in EV demand
+
+---
+
+## 🎯 CAFV Incentive Impact
+
+Analyzes the impact of CAFV (Clean Alternative Fuel Vehicle) incentives on EV adoption.
+
+### Findings
+- Incentives strongly influenced EV market growth
+- Adoption spikes align with policy support periods
+
+---
+
+## 🚗 Top EV Brands
+
+Displays the leading EV manufacturers based on vehicle count.
+
+### Example Brands
+- Audi
+- Bentley
+- Alfa Romeo
+- Azure Dynamics
+
+### Benefits
+- Identifies dominant EV manufacturers
+- Tracks brand competitiveness
+
+---
+
+## ⚖️ BEV vs PHEV Analysis
+
+Compares:
+- Battery Electric Vehicles (BEV)
+- Plug-in Hybrid Electric Vehicles (PHEV)
+
+### Key Observation
+BEVs dominate the EV market share compared to PHEVs.
+
+---
+
+## 🌎 EV Count by State
+
+Shows EV distribution across states.
+
+### Purpose
+- Regional market analysis
+- High adoption state identification
+- Infrastructure planning insights
+
+---
+
+# 🎛️ Interactive Filters
+
+The dashboard includes dynamic filtering options:
+
+| Filter | Purpose |
+|---|---|
+| Electric Vehicle Type | BEV / PHEV filtering |
+| Model Year | Year-wise analysis |
+| State | Regional filtering |
+
+---
+
+# 📂 Project Structure
+
+```bash id="evda01"
+Electrical-Vehicle-Data-Analysis/
+│
+├── README.md
+├── EV Market_Analysis.png
+├── Electric Vehicle Population Data.csv
+└── EV_Dashboard.twb
